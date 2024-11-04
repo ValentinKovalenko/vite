@@ -1,0 +1,9 @@
+.customArrow {
+  &:before {
+    display: none;
+  }
+
+  &__colorIcon {
+    filter: brightness(90%) saturate(100%) invert(43%) sepia(100%) saturate(1556%) hue-rotate(-10deg) brightness(95%) contrast(110%);
+  }
+}

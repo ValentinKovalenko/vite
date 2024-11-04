@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  background: #DE742B;
+  padding: 5% 9%;
+
+  .image {
+    width: 400px;
+    height: 600px;
+    z-index: 20;
+  }
+
+  .textBlock {
+    width: 50%;
+    font-size: 35px;
+  }
+  .button {
+    background: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 42px;
+    font-size: 24px;
+  }
+  .button:hover{
+    cursor: pointer;
+    color: #DE742B;
+  }
+  .imageBlock {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+  }
+  .imagePolygon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    height: 112%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: block;
+  }
+  .image {
+    position: relative;
+    margin-top: 5%;
+    width: 300px !important;
+    height: 400px !important;
+    z-index: 20 !important;
+  }
+  .textBlock, .imageBlock {
+    width: 100% !important;
+    display: block !important;
+    text-align: center !important;
+  }
+  .imagePolygon{
+    display: none;
+  }
+}

@@ -1,0 +1,44 @@
+.travel {
+  padding: 5% 9%;
+
+  &__textBlock {
+    display: flex;
+    align-items: center;
+  }
+
+  &__textTravel {
+    margin-top: -0.5%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  &__textTitle {
+    font-size: 35px;
+  }
+
+  &__geoText {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .travel {
+    &__textBlock {
+      display: block;
+    }
+    &__text {
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}

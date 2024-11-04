@@ -1,0 +1,30 @@
+.slider {
+  background: #DE742B;
+  border-radius: 20px;
+
+  &__block {
+    margin: 20px 80px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px white;
+    position: relative;
+
+    img {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 50px;
+      height: auto;
+    }
+  }
+  &__name {
+    font-size: 30px;
+  }
+  &__text {
+    font-size: 24px;
+
+  }
+}

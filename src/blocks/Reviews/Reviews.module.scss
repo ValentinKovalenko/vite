@@ -1,0 +1,25 @@
+.review {
+  padding: 5% 9%;
+
+  &__textBlock {
+    display: flex;
+    align-items: center;
+  }
+
+  &__textReview {
+    margin-top: -0.5%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  &__textTitle {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,40 @@
+.team {
+  padding: 5% 9%;
+  background: #DE742B;
+
+  &__textBlock {
+    display: flex;
+    align-items: center;
+  }
+
+  &__textTravel {
+    margin-top: -0.5%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  &__textTitle {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team {
+    &__textBlock {
+      display: block;
+    }
+    &__text {
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.course {
+  display: flex;
+
+  &__number {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 15px;
+    border: 2px solid;
+    flex-shrink: 0;
+  }
+
+  &__textBlock {
+    width: 80%;
+    flex-grow: 1;
+
+    &__title {
+      margin: 0;
+      font-size: 30px;
+      padding-top: 10px;
+    }
+
+    &__text {
+      font-size: 24px;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+$color-text: #333;
+$color-border: #ccc;
+$color-error: #ff4d4f;
+
+.inputContainer {
+  margin-bottom: 15px;
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: $color-text;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid #000;
+
+    &.errorInput {
+      border-color: $color-error;
+    }
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .blockError {
+    height: 20px;
+    margin-top: 5px;
+  }
+
+  .errorText {
+    color: $color-error;
+    font-size: 12px;
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  .inputContainer {
+    input {
+      width: 90%;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .inputContainer {
+    input {
+      width: auto;
+    }
+  }
+}
